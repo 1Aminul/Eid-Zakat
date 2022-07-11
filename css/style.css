@@ -110,16 +110,16 @@ nav ul .btn:hover{
 }
 .article-2 p{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 .flex-box{
     display: flex;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .flex-card{
-    width: 33%;
-    height: 33%;
+    width: 30%;
+    height: 460px;
     border: 3px solid #FA0AD2;
     margin-left: 20px;
     border-radius: 10px;
@@ -135,8 +135,7 @@ nav ul .btn:hover{
 .card h1{
     color: #FA0AD2;
     font-size: 30px;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;   
 }
 .card p{
     font-size: 18px;
@@ -161,4 +160,31 @@ nav ul .btn:hover{
 .card .btn:hover{
     background-color: #FA0AD2;
     color: #fff;
+}
+article.img{
+    display: flex;
+    margin-bottom: 5%;
+}
+.img .flex-img{
+    width: 25%;
+    border: 5px solid #d0e7fd;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 8px 15px 8px rgba(0, 0, 0, 0.1);
+    transition: 2s;
+}
+.img .flex-img:hover{
+   transform: rotateY(360deg);
+}
+.img img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;    
+}
+.img h1{
+    font-size: 30px;
+    color: #FA0A5A ;    
+    text-align: center;
+    margin-top: 20px;
 }
